@@ -1,12 +1,13 @@
-# MultiSOL
+# SOL
 
 Implementation of multidimensional Score-Oriented Loss (SOL) for deep learning models in both PyTorch and TensorFlow.
+Supports binary and multiclass classification settings.
 
 ## Installation
 
 ```bash
-git clone https://github.com/edoardolegnaro/MultiSOL.git
-cd MultiSOL
+git clone https://github.com/edoardolegnaro/SOL.git
+cd SOL
 pip install -e .
 ```
 
@@ -17,7 +18,7 @@ pip install -e .
 ```python
 import torch
 import numpy as np
-from multisol.torch.multisol import SOL
+from sol.torch.multisol import SOL
 
 # Generate tau samples on the simplex
 N = 1000  # Number of samples
@@ -44,7 +45,7 @@ for X_batch, y_batch in data_loader:
 ```python
 import tensorflow as tf
 import numpy as np
-from multisol.tf.multisol import SOL
+from sol.tf.multisol import SOL
 
 # Generate tau samples on the simplex
 N = 1000  # Number of samples
