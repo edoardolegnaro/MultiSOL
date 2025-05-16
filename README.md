@@ -1,6 +1,6 @@
 # SOL
 
-Implementation of multidimensional Score-Oriented Loss (SOL) for deep learning models in both PyTorch and TensorFlow.
+Implementation Score-Oriented Loss (SOL) functions for deep learning models.
 Supports binary and multiclass classification settings.
 
 ## Installation
